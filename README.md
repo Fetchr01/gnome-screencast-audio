@@ -86,8 +86,9 @@ Set either to `0` to leave it out. With both on they are mixed into one track.
 gjs -m selftest.js
 ```
 
-Records three seconds, checks that the file has both a video and an audio
-stream, deletes it, and tells you which one is missing.
+Records three seconds of your screen into `/tmp`, checks that the file has both
+a video and an audio stream, deletes it again, and tells you which one is
+missing.
 
 ## Caveats
 
